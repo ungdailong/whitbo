@@ -68,7 +68,7 @@ class DATABASE_CONFIG {
 		'login' => 'root',
 		'password' => '',
 		'database' => 'comparisonwebsite',
-		'prefix' => '',
+		'prefix' => 'vien_',
 		//'encoding' => 'utf8',
 	);
 
