@@ -64,11 +64,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <!-- ______________________ HEADER _______________________ -->
 
 
-  <div class="wrapper blockFloat-processed blockFloat-0" id="header-wrapper" style="width: 1263px; left: auto; position: static; top: auto;">
+  <div class="wrapper blockFloat-processed blockFloat-0" id="header-wrapper" style=" left: auto; position: static; top: auto;">
       <header id="header">
     
                   <a href="http://#/" title="Home" rel="home" id="logo">
-            <img src="images/logo3-dev" alt="Home">
+            <?php echo $this->Html->image('logo3-dev.png', array('alt' => 'logo')); ?>
           </a>
             
             
